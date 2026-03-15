@@ -1,0 +1,3 @@
+Aquest projecte forma part del projecte final del Grau Mitjà de Disseny Gràfic Interactiu, on es va demanar crear un microsite per promocionar una tipografia modular, amb la possibilitat de que l'usuari pogues descarregar-la fàcilment. 
+
+El microsite inclou diverses funcionalitats, com visualitzar i testajar les diferents variants tipogràfiques i explorar mockups que mostren l’aplicació de la tipografia en diversos productes. També incorpora diversos elements audiovisuals i sliders interactius que mostren la tipografia en moviment, reforçant-ne el caràcter visual i dinàmic.
