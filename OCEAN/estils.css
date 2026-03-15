@@ -1,0 +1,267 @@
+/* 1. Font personalizada */
+@font-face {
+    font-family: 'ocean';
+    src: url('ocean.woff') format('woff'),
+         url('ocean.ttf') format('truetype'),
+         url('ocean.svg#ocean') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 2. Reset */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+    z-index: 1000;
+	height: 75px;
+	padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+/* 3. Fondo y fuente para todo el sitio */
+body {
+	font-family: 'ocean', sans-serif;
+	background-image: url("img/background figuras.svg");
+	background-repeat: no-repeat;
+	background-position: -500px 0 0 0 ;
+	background-size: cover;
+}
+/* Tipo Secundaria */
+p{
+     font-family: "Noto Sans", sans-serif;
+}
+
+/* Icona OCEAN blanca */
+.titolweb{
+    font-size: 4.5rem;
+    letter-spacing: 2px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    font-family: 'ocean', sans-serif;
+    color: white;
+    float: left;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* OCEAN DEL MITG */
+
+#itself{
+    width: 100%;
+    height: 740px;
+}
+.gif{
+    padding-top: 50px;
+    width: 100%;
+}
+h3{
+    font-size: 100px;
+    margin-left: 50px;
+    
+}
+
+/* Titols transparents */
+.the{
+    color: rgb(48, 168, 220, 0.5);
+}
+.family{
+   color: rgb(254, 94, 100, 0.8); 
+}
+.rosa{
+    color: rgb(254, 94, 100, 0.8); 
+}
+.blau{
+  color: rgb(48, 168, 220, 0.5);
+}
+
+
+
+/* The Family */
+#theFamily{
+    width: 100%;
+    height: 690px;
+    padding-top: 90px;
+}
+.text-1{
+    margin-left: 50px;
+}
+.col_the_family {
+  float: left;
+  width: 47%;
+  height: ;
+  margin: 15px;
+}
+
+.col_family_animacio {
+  float: left;
+  width: 47%;
+  height: ;
+  margin:15px;
+}
+
+video{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.col_family_animacio iframe {
+  border-radius: 12px; /* Puedes ajustar el valor: 8px, 10px, 20px, etc. */
+  border: none; /* Quita cualquier borde por defecto */
+}
+
+
+
+
+
+/* Character Set */
+#CharacterSet{
+width: 100%;
+    height: 700px;
+  padding-top: 90px;      
+}
+
+#CharacterSet h3 {
+  margin-bottom: 20px; /* o el valor que prefieras */
+}
+
+
+
+
+/* Specimen */
+#Specimen {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  min-height: 100vh;          /* Altura mínima de toda la ventana */
+  padding-top: 100px;         /* Espacio desde el top */
+}
+
+.spcimen_oc {
+  width: 80%;
+  max-width: 900px;
+  height: auto;               /* Altura automática */
+  border-radius: 25px;
+  display: block;
+  margin: 40px auto 0 auto;
+}
+
+
+
+#In-use{
+    width: 100%;
+    height: 780px;
+    padding-top: 90px;
+}
+#In-use h3 {
+  margin-bottom: 40px; /* o el valor que prefieras */
+}
+
+
+
+/* OCEAN DEL MITG */
+#Tester{
+     width: 100%;
+    height: 700px;
+      padding-top: 155px;  
+}
+
+
+/* DOWNLOAD */
+#Download {
+    text-align: center;
+    width: 100%;
+    height: 550px;
+    padding-top: 100px;  
+    padding-bottom: 250px;
+    position: relative;   /* Necesario para el pseudo elemento */
+}
+
+.text_2 {
+    text-align: center;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.col_col_download {
+    margin-top: 20px;
+}
+
+.download_tipo {
+    display: inline-block;
+    background-color: rgba(48, 168, 220, 0.8); /* Fondo azul translúcido */
+    color: black;
+    font-size: 22px;
+    padding: 14px 32px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download_tipo:hover {
+    background-color: rgba(254, 94, 100, 1); /* más opaco al pasar el mouse */
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    color: black;
+    width: 100%;
+    background-color: transparent;
+}
+
+.col_footer {
+    width: 40%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.subscription-box {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    width: 100%;
+}
+
+.subscription-box h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.subscription-box input[type="email"] {
+    width: 60%;
+    padding: 6px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 6px;
+    outline: none;
+}
+
+.subscription-box button {
+    padding: 6px 12px;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.subscription-box button:hover {
+    background-color: rgba(254, 94, 100, 1);
+}
+
+.col_footer a {
+    text-decoration: none;
+    margin: 10px;
+}

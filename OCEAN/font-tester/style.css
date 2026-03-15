@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'ocean';
+    src: url('ocean.woff') format('woff'),
+         url('ocean.ttf') format('truetype'),
+         url('ocean.svg#ocean') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.tester-body {
+  padding-top: 4rem;
+}
+.tester-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.input-wrapper {  
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;  /* <-- Centrado horizontal */
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+#textInput {
+  flex: 1;
+  border: none;
+  font-size: 1.2rem;
+  outline: none;
+  font-family: inherit;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+}
+
+#fontSizeSlider {
+  accent-color: black;
+}
+
+#clearBtn {
+  background: #eee;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.label {
+  font-weight: bold;
+  margin: 1rem 0 0.5rem;
+}
+
+.preview-card {
+text-align: center;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.preview-text {
+  font-family: 'ocean';
+  font-size: 120px;
+}
+
+
+.price .plus {
+  color: blue;
+  font-size: 1.2rem;
+}
+.tester_text{
+align-items: center;
+}
+.text-pr{
+    font-size: 70px;
+}

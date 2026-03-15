@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	
+}
+    
+header{
+	height: 75px;
+	padding: 10px;
+    position: fixed;
+    width: 100%;
+    
+}
+    
+nav{
+	padding-top: 30px;
+	padding-right: 100px;
+	position: relative;
+    right: 0;
+    float: right;
+}
+    
+.fas{
+color: #70CFED;
+    font-size: 1.5rem;
+}
+    
+.js .navegacion{
+	 max-height: 0px;
+	 overflow:hidden;
+	 transition: max-height 1.5s;
+	
+	 position:absolute;
+	 top:80px;
+	 right: 20px;
+	
+	 background-color: #70CFED;
+	 opacity: 0.9; 
+    border-radius: 30px;
+}
+    
+.js .navegacion li{
+	width: 300px;
+	padding: 15px;
+	border-bottom: 1px solid #fff;
+}
+    
+.js .navegacion a{
+	color: #fff;
+	text-decoration: none; 
+	transition-duration: 1.5s;
+}
+    
+.js .navegacion a:hover{
+	color: #000;   
+}
+    
+.js .navegacion.menu-desplegado{
+	max-height: 400px;
+}
+

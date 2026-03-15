@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Galería Estilo Instagram</title>
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="galeria.css" rel="stylesheet" />
+</head>
+<body>
+
+  <h1>Galería estilo Instagram</h1>
+
+  <div id="In-use">
+    <div class="gallery_mockups">
+      <img src="img/Mockup_Sea.jpg" class="mockups-img" data-index="0" alt="mockup1" />
+      <img src="img/Let2.jpg" class="mockups-img" data-index="1" alt="mockup2" />
+      <img src="img/Banner_world.jpg" class="mockups-img" data-index="2" alt="mockup3" />
+      <img src="img/ERWHONE.jpg" class="mockups-img" data-index="3" alt="mockup4" />
+      <img src="img/GUM.jpg" class="mockups-img" data-index="4" alt="mockup5" />
+      <img src="img/helado.jpg" class="mockups-img" data-index="5" alt="mockup6" />
+    </div>
+
+    <!-- Modal Swiper -->
+    <div id="sliderModal" class="modal">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/Mockup_Sea.jpg" alt="Slide 1" /></div>
+          <div class="swiper-slide"><img src="img/Let2.jpg" alt="Slide 2" /></div>
+          <div class="swiper-slide"><img src="img/Banner_world.jpg" alt="Slide 3" /></div>
+          <div class="swiper-slide"><img src="img/ERWHONE.jpg" alt="Slide 4" /></div>
+          <div class="swiper-slide"><img src="img/GUM.jpg" alt="Slide 5" /></div>
+          <div class="swiper-slide"><img src="img/helado.jpg" alt="Slide 6" /></div>
+        </div>
+
+        <!-- Botones personalizados -->
+        <div id="swiper-button-prev" class="custom-button">
+          <img src="img/izquierda.png" alt="Anterior" />
+        </div>
+        <div id="swiper-button-next" class="custom-button">
+          <img src="img/dreta.png" alt="Siguiente" />
+        </div>
+
+        <!-- Botón cerrar -->
+        <div class="close-btn" id="closeBtn">✖</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="galeria.js"></script>
+</body>
+</html>
